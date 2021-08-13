@@ -67,9 +67,7 @@
 }
 .image{
     height: 100%;
-    width: 50%;
-    /* background-color: gray; */
-   
+    width: 50%;   
 }
 .image img{
     height: 100%;
@@ -111,20 +109,91 @@ text-decoration: underline;
     .services{
         height: auto;
         width: 100%;
-        padding: 20px 100px 0 100px;
+        margin: 0;
+        padding: 0;
+        /* padding: 20px 100px 0 100px; */
         margin-top: 5px;
         background-color: #ffffff;
+        padding: 0;
+
     }
     .deals_nav{
         height: auto;
         min-height: 40px;
+        width: 100%;
+        padding: 0;
+        margin: 0;
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding: 0 20px 0 20px;
         font-family: FuturaPTBold;
         text-transform: uppercase;
-        font-size: 20px;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .deals_chevron{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .deals_div{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0;
+    }
+    .deal{
+        height: 500px;
+        width: 100%;
+        min-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        position: relative;
+        padding: 0;
+        margin: 0;
+
+    }
+    .deal_filter{
+        position: absolute;
+        top: 20px;
+        left: 5%;
+        background-color: #ffff;
+        height: 40px;
+        width: 80px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        font-family: FuturaPTBook;
+        text-transform: capitalize;
+    }
+    .image{
+        height: 50%;
+        width: 90%;
+        padding: 0;
+        margin: 0;
+       
+    }
+    .image img{
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+    .deal_details{
+        height: 40%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
     }
 }
