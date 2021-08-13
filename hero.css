@@ -272,3 +272,7 @@ text-transform: uppercase;
     text-align: left;
 }
 }
+
+button:focus{
+outline: 0;
+}

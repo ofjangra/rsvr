@@ -105,6 +105,16 @@ text-decoration: underline;
     color: #fff;
     cursor: pointer;
 }
+.deal_details a{
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+}
+.deal_details a:active{
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+}
 @media only screen and (max-width: 480px){
     .services{
         height: auto;
